@@ -35,7 +35,7 @@ cd test && make # Сборка тестов
 ./main <deviation> <modulator> [output_file]
 ```
 - `modulator`: Тип модуляции (`QPSK`, `QAM16`, `QAM64`)
-- `deviation`: СКО шума (double)
+- `deviation`: Дисперсия шума (double)
 - `output_file`: Опциональный файл для сохранения BER
 
 Пример:
