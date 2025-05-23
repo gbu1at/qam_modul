@@ -32,7 +32,7 @@ cd test && make # Сборка тестов
 ## Использование
 Основная программа:
 ```bash
-./main <modulator> <deviation> [output_file]
+./main <deviation> <modulator> [output_file]
 ```
 - `modulator`: Тип модуляции (`QPSK`, `QAM16`, `QAM64`)
 - `deviation`: СКО шума (double)
@@ -40,7 +40,7 @@ cd test && make # Сборка тестов
 
 Пример:
 ```bash
-./main QPSK 0.5 results.txt
+./main 0.5 QPSK results.txt
 ```
 
 ## Параметры
