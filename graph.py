@@ -21,6 +21,9 @@ for mod in modules:
         y.append(diff)
 
     plt.plot(X, y)
+    plt.title("График зависимости дисперсии шума от ошибки")
+    plt.xlabel("дисперсия шума")
+    plt.ylabel("вероятность ошибки")
     plt.savefig(f"graph_{mod}.png")
     plt.close()
 
