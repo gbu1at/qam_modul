@@ -12,7 +12,7 @@ os.system("make")
 modules = ["QPSK", "QAM16", "QAM64"]
 
 for mod in modules:
-    X = np.linspace(0, 2, 100)
+    X = np.linspace(0, 5, 100)
     y = []
 
     for x in X:

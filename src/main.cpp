@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
 
     qam::QAM q(mod);
 
-    int N = 1200000;
+    int N = 120000;
 
     std::vector<bool> bits = generate_bits(N, 0.5);
 
